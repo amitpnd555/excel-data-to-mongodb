@@ -1,7 +1,7 @@
 (async () => {
   const axios = require("axios");
   const xlsx = require("xlsx");
-  // const db = require('./connect');
+  
 
   const collectionSchema = require("./connect");
 

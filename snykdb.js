@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const { v4: uuidv4 } = require("uuid")
 
-const db = "mongodb+srv://amit:CPCdvVDmjnkgSA7F@cluster0.eu0wn.mongodb.net/snyk?retryWrites=true&w=majority"
+const db = "";
 
 mongoose.connect(db).then(()=> {
     // console.log("connected with DB");
